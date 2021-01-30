@@ -1,20 +1,20 @@
 import * as React from 'react';
-import {FlatList, StyleSheet} from 'react-native';
+import {FlatList, StyleSheet, ImageBackground} from 'react-native';
 import { Text, View } from '../components/Themed';
 import ChatListItem from "../components/ChatListItem";
-
+import bg from "../assets/images/BG.png"
 import chatRooms from "../data/ChatRooms";
 
 export default function ChatsScreen() {
   return (
-    <View style={styles.container}>
-      <FlatList
-          style={{ width: '100%' }}
-          data={chatRooms}
-          renderItem={({ item }) => <ChatListItem chatRoom={item} />}
-          keyExtractor={(item) => item.id}
-      />
-    </View>
+      <View>
+          <FlatList
+              style={{ width: '100%' }}
+              data={chatRooms}
+              renderItem={({ item }) => <ChatListItem chatRoom={item} />}
+              keyExtractor={(item) => item.id}
+          />
+      </View>
   );
 }
 
