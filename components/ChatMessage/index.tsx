@@ -19,10 +19,9 @@ const ChatMessage = (props: ChatMessageProps) => {
             <View style={[
                 styles.messageBox,
                 {
-                    backgroundColor: isMyMessage() ? '#f6c5da' : '#ded9d9',
+                    backgroundColor: isMyMessage() ? '#f6c5da' : '#ffffff',
                     marginRight: isMyMessage() ? 0 : 50,
                     marginLeft: isMyMessage() ? 50 : 0,
-
                 }
             ]}>
                 { isMyMessage() || <Text style={styles.name}>{message.user.name}</Text> }

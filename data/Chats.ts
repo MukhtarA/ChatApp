@@ -6,7 +6,7 @@ export default {
 		imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
 	}, {
 		id: 'u2',
-		name: 'Lukas',
+		name: 'Aisulu',
 		imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg',
 	}],
 	messages: [{
@@ -23,7 +23,7 @@ export default {
 		createdAt: '2020-10-03T14:49:00.000Z',
 		user: {
 			id: 'u2',
-			name: 'Lukas',
+			name: 'Aisulu',
 		},
 	}, {
 		id: 'm3',
@@ -31,7 +31,7 @@ export default {
 		createdAt: '2020-10-03T14:49:40.000Z',
 		user: {
 			id: 'u2',
-			name: 'Lukas',
+			name: 'Aisulu',
 		},
 	}, {
 		id: 'm4',
@@ -55,7 +55,7 @@ export default {
 		createdAt: '2020-10-03T14:49:00.000Z',
 		user: {
 			id: 'u2',
-			name: 'Lukas',
+			name: 'Aisulu',
 		},
 	}, {
 		id: 'm7',

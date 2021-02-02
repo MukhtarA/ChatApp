@@ -2,11 +2,11 @@ export default [{
   id: '1',
   users: [{
     id: 'u1',
-    name: 'Vadim',
+    name: 'Mukhtar',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
   }, {
     id: 'u2',
-    name: 'Lukas',
+    name: 'Aisulu',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg',
   }],
   lastMessage: {
@@ -18,7 +18,7 @@ export default [{
   id: '2',
   users: [{
     id: 'u1',
-    name: 'Vadim',
+    name: 'Mukhtar',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
   }, {
     id: 'u3',
@@ -34,7 +34,7 @@ export default [{
   id: '3',
   users: [{
     id: 'u1',
-    name: 'Vadim',
+    name: 'Mukhtar',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
   }, {
     id: 'u4',
@@ -50,7 +50,7 @@ export default [{
   id: '4',
   users: [{
     id: 'u1',
-    name: 'Vadim',
+    name: 'Mukhtar',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
   }, {
     id: 'u5',
@@ -66,7 +66,7 @@ export default [{
   id: '5',
   users: [{
     id: 'u1',
-    name: 'Vadim',
+    name: 'Mukhtar',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
   }, {
     id: 'u6',
@@ -82,7 +82,7 @@ export default [{
   id: '6',
   users: [{
     id: 'u1',
-    name: 'Vadim',
+    name: 'Mukhtar',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
   }, {
     id: 'u7',
@@ -98,7 +98,7 @@ export default [{
   id: '7',
   users: [{
     id: 'u1',
-    name: 'Vadim',
+    name: 'Mukhtar',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
   }, {
     id: 'u8',
@@ -114,7 +114,7 @@ export default [{
   id: '8',
   users: [{
     id: 'u1',
-    name: 'Vadim',
+    name: 'Mukhtar',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
   }, {
     id: 'u9',
@@ -130,7 +130,7 @@ export default [{
   id: '9',
   users: [{
     id: 'u1',
-    name: 'Vadim',
+    name: 'Mukhtar',
     imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
   }, {
     id: 'u10',

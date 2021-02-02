@@ -2,7 +2,6 @@ import * as React from 'react';
 import {FlatList, StyleSheet, ImageBackground} from 'react-native';
 import { Text, View } from '../components/Themed';
 import ChatListItem from "../components/ChatListItem";
-import bg from "../assets/images/BG.png"
 import chatRooms from "../data/ChatRooms";
 
 export default function ChatsScreen() {
