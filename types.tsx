@@ -1,3 +1,4 @@
+
 export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
@@ -39,3 +40,5 @@ export type ChatRoom = {
   users: User[];
   lastMessage: Message;
 };
+
+

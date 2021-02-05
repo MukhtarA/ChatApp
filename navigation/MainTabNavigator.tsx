@@ -7,14 +7,16 @@ import { Fontisto } from "@expo/vector-icons";
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import ChatsScreen from '../screens/ChatsScreen';
-import TabTwoScreen from '../screens/TabTwoScreen';
-import { MainTabParamList, TabOneParamList, TabTwoParamList } from '../types';
+import {MainTabParamList, TabOneParamList} from '../types';
+import CameraScreen from "../screens/CameraScreen";
 
 const MainTab = createMaterialTopTabNavigator<MainTabParamList>();
 
 export default function MainTabNavigator() {
   const colorScheme = useColorScheme();
+  const cameraIndicator = () => {
 
+  }
   return (
     <MainTab.Navigator
       initialRouteName="Chats"
@@ -26,6 +28,7 @@ export default function MainTabNavigator() {
           indicatorStyle: {
               backgroundColor: Colors[colorScheme].background,
               height: 3,
+
           },
           labelStyle: {
               fontWeight: 'bold',
@@ -34,11 +37,12 @@ export default function MainTabNavigator() {
       }}>
       <MainTab.Screen
         name="Camera"
-        component={TabOneNavigator}
+        component={CameraScreen}
         options={{
           tabBarIcon: ({ color }) => <Fontisto name="camera" color={color} size={16}/>,
           tabBarLabel: () => null,
         }}
+
 
       />
       <MainTab.Screen
@@ -47,11 +51,11 @@ export default function MainTabNavigator() {
       />
         <MainTab.Screen
             name="Status"
-            component={TabTwoNavigator}
+            component={ChatsScreen}
         />
         <MainTab.Screen
             name="Calls"
-            component={TabTwoNavigator}
+            component={ChatsScreen}
         />
     </MainTab.Navigator>
   );
@@ -76,19 +80,5 @@ function TabOneNavigator() {
         options={{ headerTitle: 'Tab One Title', headerShown: false }}
       />
     </TabOneStack.Navigator>
-  );
-}
-
-const TabTwoStack = createStackNavigator<TabTwoParamList>();
-
-function TabTwoNavigator() {
-  return (
-    <TabTwoStack.Navigator>
-      <TabTwoStack.Screen
-        name="TabTwoScreen"
-        component={TabTwoScreen}
-        options={{ headerTitle: 'Tab Two Title', headerShown: false }}
-      />
-    </TabTwoStack.Navigator>
   );
 }

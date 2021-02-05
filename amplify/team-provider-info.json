@@ -10,6 +10,11 @@
       "StackName": "amplify-chatapp-dev-14338",
       "StackId": "arn:aws:cloudformation:ap-south-1:923061277860:stack/amplify-chatapp-dev-14338/23e07580-6658-11eb-82e9-0a46b14f170e",
       "AmplifyAppId": "dkqbctwiinbvp"
+    },
+    "categories": {
+      "auth": {
+        "chatapp68010528": {}
+      }
     }
   }
 }
